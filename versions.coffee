@@ -8,10 +8,9 @@ generateVersion = (version) ->
   {
     version: version,
     urls: {
-      "linux_32"    : "#{BASE_URL}/#{version}/#{APP_NAME}-v#{version}-linux_32.zip"
-      "linux_64"    : "#{BASE_URL}/#{version}/#{APP_NAME}-v#{version}-linux_64.zip"
       "darwin_x64"  : "#{BASE_URL}/#{version}/#{APP_NAME}-v#{version}-darwin_64.zip"
-      "windows_x64" : "#{BASE_URL}/#{version}/#{APP_NAME}-v#{version}-windows_64.zip"
+      "darwin_x64_dmg"  : "#{BASE_URL}/#{version}/#{APP_NAME}-v#{version}-darwin_64.dmg"
+      "windows_x64" : "#{BASE_URL}/#{version}/#{APP_NAME}-v#{version}-windows_64.exe"
       "windows_ia32": "#{BASE_URL}/#{version}/#{APP_NAME}-v#{version}-windows_32.zip"
     }
   }
